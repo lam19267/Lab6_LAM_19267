@@ -1,0 +1,45 @@
+$date
+	Sat Sep 05 22:59:26 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 4 ! Q1 [3:0] $end
+$var reg 4 " D1 [3:0] $end
+$var reg 1 # clk3 $end
+$var reg 1 $ reset3 $end
+$var reg 1 % set3 $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1%
+1$
+0#
+b1100 "
+bz !
+$end
+#5
+1#
+b1110 "
+0%
+0$
+#10
+0#
+b111 "
+1%
+#15
+1#
+b1011 "
+0%
+#20
+0#
+b1101 "
+#25
+1#
+#30
+0#
